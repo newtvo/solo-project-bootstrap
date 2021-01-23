@@ -8,7 +8,7 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="navbarSupportedContent">
     
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -21,16 +21,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Discover</a>
+                            <a class="nav-link" href="#discover">Discover</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#service">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sign Up</a>
+                            <a class="nav-link" href="#sign">Sign Up</a>
                         </li>
                     </ul>
                     <button class="btn btn-success text-dark" type="submit">Sign In</button>
@@ -50,7 +50,7 @@
         </div>
     </header>
 
-    <section class="about py-5">
+    <section id="about" class="about py-5">
         <div class="row align-items-center container my-5 mx-auto">
             <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
                 <h6>PREMIUM BANK</h6>
@@ -66,7 +66,7 @@
         </div>
     </section>
 
-    <section class="discover py-5">
+    <section id="discover" class="discover py-5">
         <div class="row align-items-center container my-5 mx-auto">
             <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
                 <img class="img-fluid" src="./img/2.png">
@@ -81,6 +81,120 @@
             </div>
         </div>
     </section>
+
+    <section id="service" class="service py-5">
+        <div class="col mx-auto align-items-center my-5">
+            <div class="heading text-center pt-5">
+                <h2 class="font-weight-bold pb-5 text-light">Our Services</h2>
+            </div>
+            <div class="row mx-auto justify-content-center align-items-center text-center container">
+                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                    <img class="img-fluid w-7" src="./img/1.svg">
+                    <h5 class="font-weight-bold pt-4">Reduce Expenses</h5>
+                    <p>To save your more money, zero fees will be available for unlimited transactions.</p>
+                </div>
+                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                    <img class="img-fluid w-7" src="./img/2.png">
+                    <h5 class="font-weight-bold pt-4">Virtual Offices</h5>
+                    <p>You do not have to go to the bank and meet a real broker to assist you.</p>
+                </div>
+                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                    <img class="img-fluid w-7" src="./img/3.png">
+                    <h5 class="font-weight-bold pt-4">Premium Benefits</h5>
+                    <p>Beside unlimited transactions, more benefits in premium banking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sign" class="sign py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h6>JOIN OUR TEAM</h6>
+                <h2>Creating an account is extremely easy</h2>
+                <p>
+                    Join our incredible team to create a more work-friendly and goal-oriented corporation.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <img class="img-fluid" src="./img/4.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small stylish-color-dark text-center text-lg-start pt-4 text-light">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Footer Content</h5>
+    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                        voluptatem veniam, est atque cumque eum delectus sint!
+                    </p>
+                </div>
+                <!--Grid column-->
+    
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+    
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-light">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+    
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Links</h5>
+    
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-light">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-light" href="https://newtvo-dev.web.app/">NHUT VO</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"

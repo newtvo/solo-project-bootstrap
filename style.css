@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+html 
+{
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -23,7 +28,8 @@
     padding: 0 0.8rem;
 }
 
-#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > .active {
     color: #00BF85;
 }
 
@@ -161,3 +167,61 @@
     color: #fff;
 }
 
+.service {
+    background: #000;
+}
+
+.service .one {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+}
+
+.sign {
+    
+}
+
+.sign .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sign .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.sign .text h2 {
+    color: #111;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.sign .text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.sign .text a {
+    background: #111;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+body > footer {
+    background: #111!important;
+}
